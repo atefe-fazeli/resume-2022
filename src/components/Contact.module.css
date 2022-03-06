@@ -1,0 +1,15 @@
+.container{
+    position: absolute;
+    right: 0;
+    top: 63px;
+    width: 154px;
+    background-color: #DBFFFF;
+  padding: 15px 20px;
+  border-radius: 0 0 12px 12px;
+  border: solid  .8px #e0e0e0;
+    transform: translatex(-27%);
+  }
+  .container ul li{
+margin-top: 8px;
+  }
+    
