@@ -12,4 +12,14 @@
   .container ul li{
 margin-top: 8px;
   }
+  .container ul li a:hover{
+   font-weight: bold;
+      }
+ .icon{
+    font-size: 18px;
+    margin-right: 8px;
+    position: relative;
+   top: 4px;
+    
+  }
     
