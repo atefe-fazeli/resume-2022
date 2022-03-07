@@ -29,6 +29,10 @@ const Buttons = () => {
             title="HTML"
              discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
             />
+            <Cards 
+            title="HTML"
+             discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
+            />
              <Cards 
             title="HTML"
              discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
