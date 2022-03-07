@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container>div{
+    /* width: 50%; */
+
+}
+.intro{
+font-size: 3rem;
+letter-spacing: 2px;
+line-height: 5rem;
+
+
+}
+.intro span{
+    display: block;
+    color: #ff6f00;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+
+}
+.piccontainer{
+    background:  url("../images/mypic.png") no-repeat center center fixed;
+    
+    width: 50%;
+    height: 400px;
+    /* background-color: red; */
+    
+  
+}

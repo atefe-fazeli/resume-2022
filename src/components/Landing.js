@@ -6,10 +6,10 @@ const Landing = () => {
         <div className={styles.container}>
 
             <div>
-            <h1>Hi! I Am<span> Atefe Fazeli</span></h1>
+            <h1 className={styles.intro}>Hi! I Am<span> Atefe Fazeli</span></h1>
             </div>
-            <div>
-                <img src={mypic}/>
+            <div className={styles.piccontainer}>
+                {/* <img src={mypic} className={styles.containerimg}/> */}
             </div>
             
             
