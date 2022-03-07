@@ -1,0 +1,32 @@
+.buttonscontainer{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    margin-top: 30px;
+}
+button{
+    padding: 15px 30px;
+    border: solid 0.8px #e0e0e0;
+   height: fit-content;
+  background-color: inherit;
+    border-radius: 12px;
+    
+    font-size: 1rem;
+    width: 280px;
+  
+}
+.choosed{
+    background-image: linear-gradient(to right, #ff512f, #f09819);
+    color: white;
+}
+button:hover{
+font-weight: bold;   
+box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
+}
+.cardcontainer{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
