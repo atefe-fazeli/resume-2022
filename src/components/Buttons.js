@@ -25,25 +25,42 @@ const Buttons = () => {
             /> 
               <Cards 
             title="Tailwind"
-             discription="dfhdfhfhfgjhkhgguftcfgcabn anandndkscbskcsokc;sck"         
+             discription="A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup."         
             /> 
+               <Cards 
+            title="TDD"
+             discription="How to write tests for React components"         
+            /> 
+
             </div>:
             <div className={styles.cardcontainer}> 
             <Cards 
-            title="HTML"
-             discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
+            title="HTML (Intermediate)"
+             discription="I know about HTML4 and HTML5 tags."         
             />
             <Cards 
-            title="HTML"
-             discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
+            title="CSS (Intermediate)"
+             discription="I know how to style web pages with basic CSS properties,FlexBox,Animation. "         
             />
              <Cards 
-            title="HTML"
-             discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
+            title="Bootstrap (beginner)"
+             discription="Quickly design and customize responsive mobile-first sites with Bootstrap."         
             />
             <Cards 
-            title="HTML"
-             discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
+            title="JS (Intermediate)"
+             discription="Fundamental and some advance topics like async, await, promise and etc."         
+            />
+            <Cards 
+            title="React (Intermediate)"
+             discription="Fundamental and some libraries  like axios, react-router-dom, react-icons, Radium, hooks and etc."         
+            />
+            <Cards 
+            title="git and github (Intermediate)"
+             discription="Fundamental git bash codes about add, commit, branches and etc."         
+            />
+            <Cards 
+            title="Adobe Xd (above beginner)"
+             discription="I know how to design web pages and some basic xd animations"         
             />
             </div> 
               }
