@@ -9,7 +9,7 @@ const Info = () => {
         <div className={styles.container}>
             <div className={styles.firstdiv}>
                <p>
-                  <span className={styles.titlehover}>Profile</span><br />
+                  <span className={styles.titlehover}>Profile</span>
                      <GiNewBorn/> Born : 1996 <br />
                      <GiBigDiamondRing/> Maritial status : Single <br />
                      <BsFillTelephoneFill/> Phone Number: 09139118048 <br />
@@ -17,19 +17,19 @@ const Info = () => {
                 </p>
             </div>
             <div className={styles.seconddiv}>
-                <p><span className={styles.titlehover}>Education</span><br />
+                <p><span className={styles.titlehover}>Education</span>
                 Graduated as a mining engineering from Amirkabir University of technology</p>
             </div>
             <div className={styles.theirddiv}>
-                <p><span className={styles.titlehover}>Language</span><br />
+                <p><span className={styles.titlehover}>Language</span>
                 Intermediate at English</p>
             </div>
             <div className={styles.forthdiv}>
-               <p><span className={styles.titlehover}>Interests</span><br />
+               <p><span className={styles.titlehover}>Interests</span>
                 Front end developing</p>
             </div>
             <div className={styles.fifthdiv}>
-                <p> <span className={styles.titlehover}>Courses</span><br />
+                <p> <span className={styles.titlehover}>Courses</span>
                 Milad Azami react course (+30 hour)</p>
             </div>
             

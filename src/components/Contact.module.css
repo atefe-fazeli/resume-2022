@@ -22,4 +22,10 @@ margin-top: 8px;
    top: 4px;
     
   }
+  @media screen and  (max-width:786px){
+    .container{
+      position: static;
+      transform: translatex(0);
+    }
+}
     

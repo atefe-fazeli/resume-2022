@@ -5,11 +5,11 @@
     margin: 0pxs;
 }
 .button{
-   
+   width:160px ;
     padding: 15px 30px;
     border: solid 0.8px #e0e0e0;
-   height: fit-content;
-  background-color: inherit;
+    height: fit-content;
+    background-color: inherit;
     border-radius: 12px;
     font-weight: bold;
     font-size: 1rem;
@@ -21,4 +21,10 @@
     background-color: #ffb74d;
     color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+@media screen and  (max-width:786px){
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
 }

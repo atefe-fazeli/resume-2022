@@ -16,12 +16,16 @@ const Buttons = () => {
             className={ status ? styles.choosed : styles.unchoosed}
             >What I Am Going To Learn</button>
         </div>
-        <div>
+        <div >
             {status ? 
             <div className={styles.cardcontainer}>  
             <Cards 
-            title="REDUX"
-             discription="dfhdfhfhfgjhkhgguftcfgcabn ana"         
+            title="REDUX (Learning)"
+             discription= "A Predictable State Container for JS Apps"      
+            /> 
+              <Cards 
+            title="Tailwind"
+             discription="dfhdfhfhfgjhkhgguftcfgcabn anandndkscbskcsokc;sck"         
             /> 
             </div>:
             <div className={styles.cardcontainer}> 
