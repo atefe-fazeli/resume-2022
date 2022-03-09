@@ -4,9 +4,8 @@
     justify-content: space-around
     ;
 }
-.container>div{
+.container>div {
     width: 50%;
-
 }
 .intro{
 font-size: 3rem;
@@ -33,7 +32,19 @@ letter-spacing: 4px;
     
     width: 50%;
     height: 400px;
-    /* background-color: red; */
-    
   
+}
+@media screen and  (max-width:786px){
+    .imagecontainer{
+     display: none;
+    }
+    .intro{
+        text-align: center;
+    }
+    .paragraph{
+        text-align: center;
+    }
+    .container>div{
+width: 80%;
+    }
 }

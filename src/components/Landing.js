@@ -9,7 +9,7 @@ const Landing = () => {
             <h1 className={styles.intro}>Hi! I Am<span> Atefe Fazeli</span></h1>
             <p className={styles.paragraph}>Junior React Developer</p>
             </div>
-            <div  >
+            <div className={styles.imagecontainer} >
                 <img src={Mypic} alt="PIC" className={styles.containerimg}/>
             </div>
             
